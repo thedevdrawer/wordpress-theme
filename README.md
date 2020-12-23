@@ -1,6 +1,6 @@
 # WordPress Theme
 
-Custom WordPress theme built using TypeRocket for custom post types.
+Custom WordPress theme built using TypeRocket (v4) for custom post types.
 
 ## Videos
 
