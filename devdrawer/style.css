@@ -1,0 +1,54 @@
+/*
+Theme Name: TheDevDrawer
+Theme URI: https://thedevdrawer.com
+Author: DevDrawer
+Author URI: https://thedevdrawer.com
+Description: A sample theme built using Bootstrap
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+header, footer {
+    color:#fff;
+}
+
+header a, footer a {
+    color:#fff;
+}
+
+header a:hover, header a:active, header a:focus, footer a:hover, footer a:active, footer a:focus {
+	color:#c0c0c0;
+	text-decoration: none;
+}
+
+header {
+    margin-bottom:1rem;
+}
+
+header .navbar-toggler {
+    color:#fff;
+}
+
+footer {
+    padding:1rem 0;
+    margin-top:2rem;
+}
+
+footer .footerbottom ul {
+    margin:0;
+    padding:0;
+}
+
+footer .footerbottom ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+footer .footerbottom ul li:after {
+    content: " | ";
+}
+
+footer .footerbottom ul li:last-child:after {
+    content: "";
+}
